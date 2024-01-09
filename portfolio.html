@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <style>
+      :root {
+    --primary-color: #29a598;
+    --text-color: #394c4a;
+    --background-light: #c2e709;
+    --header-height: 100vh;
+}
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 110%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Work Sans', Helvetica, sans-serif;
+    color: #4412eb;
+    line-height: 1.5;
+    overflow-x: hidden;
+}
+
+.header-background {
+    background: linear-gradient(rgba(241, 239, 236, 0.7), rgba(218, 137, 56, 0.9)), 
+                url("https://i.imgur.com/TAn6FWz.jpg") center center fixed;
+    background-size: cover;
+    text-align: center;
+    height: 150vh; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+nav {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 15px 0;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0 auto;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-family: 'Unica One', cursive;
+    font-size: 1.2rem;
+}
+
+.header-content img {
+    max-width: 200px;
+    border-radius: 100%;
+    background-image: "poetfolio.jpg";
+}
+
+.header-content h1, .header-content p {
+    margin: 0.5rem 0;
+    font-family: 'Unica One', cursive;
+
+}
+
+#about {
+    background-color: #cbe506; 
+    padding-left: 40px;
+    padding-right: 40px;
+    margin: 40px;
+    border-radius: 0.5%;
+    text-align: center;
+}
+
+.profile-photo {
+    max-width: 40%;
+    height: auto; 
+    border-radius: 50%; 
+}
+
+#portfolio {
+    background-color: #0fbfbf; 
+    padding: 15px;
+    border-radius: 0.5%;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.project {
+    width: 200px;
+    height: 200px;
+    border: 1px solid #ccc;
+    margin: 10px;
+    display: inline-block;
+    line-height: 200px;
+}
+
+/* Add this to your existing CSS */
+
+.center {
+    text-align: center;
+}
+
+.contact {
+    background-color: #db5757;
+    padding: 40px 0;
+    text-align: left; /* Align text within the container */
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: column; /* Stack children vertically */
+    align-items: center; /* Center children horizontally */
+}
+
+
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    .contact-section {
+      background-color: #dd4949;
+      padding: 20px;
+      /* Adjust the height or max-height of the contact section as needed */
+      max-height: 300px;
+      margin: 20px;
+    }
+
+    /* Add additional styling for your contact form elements */
+    .contact-form input, .contact-form textarea {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 10px;
+      box-sizing: border-box;
+    }
+
+    .contact-form button {
+      background-color: #4CAF50;
+      color: white;
+      padding: 10px 15px;
+      border: none;
+      cursor: pointer;
+    }
+    /* Add or update this in your existing CSS */
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.footer-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.contact-info, .social-links {
+    flex: 1;
+    padding: 0 20px;
+    margin: 20px 0; /* Add margin to separate sections */
+}
+
+h3 {
+    border-bottom: 2px solid #fff;
+    padding-bottom: 5px;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    margin-bottom: 5px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.copyright {
+    margin-top: 20px;
+}
+
+  </style>
+
+
+  
+    </style>
+    <header class="header-background">
+        <nav>
+            <ul>
+                <li><a href="#about">About </a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="header-content">
+
+            <h1>Hi, my name is Vibha</h1>
+            <img class="place-image" src= 
+            "vibha.jpeg.jpeg" width="200" >
+            <p>Web Developer | Designer | Tech Enthusiast</p>
+            <p>Welcome to my portfoio</p>
+            <p>Objective-To be associated with a progressive organization which poses a challenging and innovative career , my knowledge and thus giving me scope to update my knowledge and skill.</p>
+        </div>
+    </header>
+    <main>
+        <section id="about">
+            <h2>~ About Me ~</h2>
+                <div class="container mt-4 pt-4">
+                    <div class="row mt-4">
+                        <div class="col-lg-4">
+                            
+                        </div>
+        
+                        <div class="col-lg-8">
+                            <p> Hi, I'm Vibha Shetty, a third-year Information Technology student passionate about specific interests in IT. Currently pursuing my engineering degree in branch Information Technology  at Thakur College of Engineering and Technology. My coursework has equipped me with a solid foundation in areas like programming languages, databases, networking, etc.
+
+
+                            </p>
+                            <div class="row mt-3">
+                                <div class="col-md-6">
+                                    <ul>
+                                        <li> Proficient in [Programming Languages, e.g., Java, Python]</li>
+                                        <li>Familiar with [Web Development technologies, e.g., HTML, CSS, JavaScript]</li>
+                                        <li>Experience with [Databases, e.g., MySQL]</li>
+                                        <li>[Any other relevant technical skills such as MS word,Canva,MS powerpoint etc.</li>
+                                    </ul>
+                                </div>
+                               
+
+                        </div>
+                    </div>
+            </section>
+        
+        <section id="portfolio">
+            <h2>~ My Work ~</h2>
+        <!-- Job 1 -->
+        <div class="job">
+            <h3>  | Software Engineer | </h3>
+            <p class="duration">APRIL 2023 - Present</p>
+            <ul>
+                <li>Developed and maintained web applications using HTML, CSS, and JavaScript.</li>
+                <li>Collaborated with cross-functional teams to deliver high-quality software solutions.</li>
+                <li>Conducted code reviews and provided mentorship to junior developers.</li>
+                <li>Implemented new features, resulting in a 20% improvement in user engagement.</li>
+            </ul>
+
+            <h4>Technologies Used:</h4>
+            <p>JavaScript, React.js, Node.js, MongoDB</p>
+
+            <h4>Key Projects:</h4>
+            <ul>
+                <li><strong>Project Name 1:</strong> E-commerce Platform: Developed a robust and scalable e-commerce platform using html,css.javascript,node.js,react,mongodb and python framework.</li>
+                <li><strong>Project Name 2:</strong> 2.Mobile Application: Led the development of a mobile application using React Native</li>
+            </ul>
+
+            <h4>Skills Developed:</h4>
+            <ul>
+                <li>Enhanced proficiency in front-end development technologies.</li>
+                <li>Improved collaboration and communication skills through team projects.</li>
+            </ul>
+        </div>
+
+        <!-- Repeat the structure for each job -->
+
+    </div>
+</section>
+
+        
+        <section class="contact">
+            <div class="container">
+                <h2 class="center">Contact Me</h2>
+
+                
+                        <form class="contact-form">
+                          <label for="name">Name:</label>
+                          <input type="text" id="name" name="name" required>
+                    
+                          <label for="email">Email:</label>
+                          <input type="email" id="email" name="email" required>
+                    
+                          <label for="message">Message:</label>
+                          <textarea id="message" name="message" rows="4" required></textarea>
+                    
+                          <button type="submit">Submit</button>
+                        </form>
+                      </div>
+                    
+               
+            </section>
+        
+        
+           
+    </main>
+    <footer>
+        <footer>
+            <div class="container">
+                <div class="footer-content">
+                    <div class="contact-info">
+                        <h3> Contact Information</h3>
+                        <p>Email: shettyvibha20@gmail.com</p>
+                        <p>Phone: 9892153291</p>
+                    </div>
+        
+    </footer>
+</body>
+</html>
+ 
